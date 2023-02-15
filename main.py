@@ -37,7 +37,7 @@ def get_weather():
     print(f"当前天气：{current_weather}")
     print(f"风向和风力：{current_wind_direction}，{current_wind_power}")
     print(f"空气质量指数（AQI）：{current_aqi}")
-else:
+  else:
     print("数据获取失败。")
 
 def get_count():
